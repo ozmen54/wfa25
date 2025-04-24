@@ -15,4 +15,9 @@ public class HomeController {
     public String newHome() {
         return "home-new";
     }
+
+    @GetMapping("/newest")
+    public String newestHome() {
+        return "home-newest";
+    }
 }
